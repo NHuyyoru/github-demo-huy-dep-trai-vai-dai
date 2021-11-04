@@ -20,9 +20,11 @@ int main(){
        break;
        case 2:
        if((nam % 4 == 0 && nam % 100 == 0) || (nam % 4 == 0 && nam % 100 != 0 )){
-          cout << "thang " << thang << endl;
+          cout << "thang " << thang << " co 29 ngay" << endl;
        }
-       
+        else{
+          cout << "thang " << thang << " co 28 ngay" << endl;
+        }      
        break;
        case 3:
        cout << "thang " << thang << " co 31 ngay" << endl;
